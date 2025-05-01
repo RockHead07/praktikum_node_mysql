@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS praktikum_web;
+
+USE praktikum_web;
+
+CREATE TABLE IF NOT EXISTS mahasiswa (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100),
+  npm VARCHAR(20),
+  jurusan VARCHAR(50)
+);
